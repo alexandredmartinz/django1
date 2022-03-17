@@ -51,3 +51,12 @@
 # whitenoise.middleware.WhiteNoiseMiddleware significa que o Django irá usar o WhiteNoise para compartilhar arquivos estáticos entre servidores. 
 
 # importante criar o arquivo gitignore para ignorar determinados arquivos, exemplo: __pycache__, static, media, etc.
+# git init significa que o projeto será armazenado no git.
+# git add . significa que o projeto será adicionado ao git.
+# git commit -m "mensagem" significa que o projeto será commitado com a mensagem "mensagem".
+# git config --global user.email " significa que o email do usuário será configurado.
+# git config --global user.name " significa que o nome do usuário será configurado.
+
+
+
+
