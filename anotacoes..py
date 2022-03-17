@@ -70,5 +70,5 @@
 
 # executar o comando git push heroku master clicar enter  para enviar o projeto para o heroku.
 # git push heroku master vai enviar o projeto para o heroku. 
-
+# web: gunicorn django1.wsgi --log-file - significa que o gunicorn irá rodar o django1.wsgi.
 
