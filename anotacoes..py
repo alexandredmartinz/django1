@@ -59,5 +59,16 @@
 
 
 # Procfile é um arquivo que é utilizado para definir qual o servidor web que será utilizado.
+# O comando web: gunicorn django1.wsgi --log-file - significa que o gunicorn irá rodar o django1.wsgi.
+# O heroku é um servidor web que permite que o Django o servidor web seja configurado automaticamente.
+# heroku login é para logar no heroku.
+# No terminal usar ocomando heroku login para logar no heroku.
+# Criar uma aplicação no heroku com o comando heroku create, utilizar o nome do projeto.
+# o comando --buildpack heroku/python significa que o heroku irá configurar o projeto como um buildpack do heroku.
+# O comando heroku open irá abrir o projeto no navegador.
+# heroku create serve para criar uma aplicação no heroku.
+
+# executar o comando git push heroku master clicar enter  para enviar o projeto para o heroku.
+# git push heroku master vai enviar o projeto para o heroku. 
 
 

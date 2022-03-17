@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # DEBUG = False significa que o Django irá mostrar mensagens de erro e está em ambiente de produção.
 # Quando muda de True para False, o Django irá enviar um email para o administrador do sistema, informando que o sistema está em produção.
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
