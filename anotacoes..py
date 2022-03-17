@@ -72,3 +72,7 @@
 # git push heroku master vai enviar o projeto para o heroku. 
 # web: gunicorn django1.wsgi --log-file - significa que o gunicorn irá rodar o django1.wsgi.
 
+# git remote rm 
+# heroku create django1-az --buildpack heroku/python este comaando serve para criar uma aplicação no heroku.
+# git push heroku master vai enviar o projeto para o heroku.
+# heroku open irá abrir o projeto no navegador.
