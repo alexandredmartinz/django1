@@ -50,7 +50,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', # whitenoise é integrado ao django para o gerenciamento de arquivos estáticos
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -58,7 +58,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+# middleware serve para interceptar requisições e manipular dados antes de serem enviados para o servidor.
 # whitenoise.middleware.WhiteNoiseMiddleware significa que o Django irá usar o WhiteNoise para compartilhar arquivos estáticos entre servidores. 
 
 ROOT_URLCONF = 'django1.urls'
