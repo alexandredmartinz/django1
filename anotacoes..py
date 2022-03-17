@@ -58,5 +58,6 @@
 # git config --global user.name " significa que o nome do usuário será configurado.
 
 
+# Procfile é um arquivo que é utilizado para definir qual o servidor web que será utilizado.
 
 
